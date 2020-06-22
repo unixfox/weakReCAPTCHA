@@ -1,0 +1,32 @@
+{
+  "name": "recaptchadestroyer",
+  "version": "0.0.1",
+  "description": "A Google Recaptcha solver that only works with fallback system without JS",
+  "main": "index.js",
+  "dependencies": {
+    "canvas": "^2.6.1",
+    "cheerio": "^1.0.0-rc.3",
+    "del": "^5.1.0",
+    "form-data": "^3.0.0",
+    "got": "^10.7.0",
+    "image-clipper": "^0.4.4",
+    "image-data-uri": "^2.0.1",
+    "js-levenshtein": "^1.1.6",
+    "koa": "^2.13.0",
+    "koa-bodyparser": "^4.3.0",
+    "koa-router": "^7.4.0",
+    "mongolass": "^4.4.6",
+    "node-rekognition": "^0.4.0",
+    "pluralize": "^8.0.0",
+    "tough-cookie": "^3.0.1",
+    "wordpos": "^2.0.0",
+    "workerpool": "^5.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "unixfox",
+  "license": "ISC"
+}
